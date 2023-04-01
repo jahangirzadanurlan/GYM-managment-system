@@ -1,2 +1,5 @@
-package enums;public class ExceptionEnum {
+package enums;
+
+public enum ExceptionEnum {
+    NotFoundMember,
 }
