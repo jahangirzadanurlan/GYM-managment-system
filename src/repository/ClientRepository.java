@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface ClientRepository {
     boolean registerClient(Client client);
-    boolean updateClient(int departure, int id, LocalDate updateDate,LocalDate memberExpirationDate);
+    boolean updateClient(String fin,int departure, LocalDate updateDate,LocalDate memberExpirationDate);
     boolean increaseDeparture(String fin);
     int findDeparturesById(String fin);
     List<Client> showAllClient();

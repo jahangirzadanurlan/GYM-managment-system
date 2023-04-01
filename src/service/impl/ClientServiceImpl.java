@@ -36,14 +36,16 @@ public class ClientServiceImpl implements ClientService {
 
     @Override
     public void updateClient() {
-        int id=InputUtil.requiredInputInt("Enter Client id: ");
+        String fin=InputUtil.requiredInputString("Enter Client fin: ");
+        if(showAllClient().stream().anyMatch(i->i.getFin().equals(fin))){
+            int departures=InputUtil.requiredInputInt("Add number of departures: ");
+            LocalDate updateDate=InputUtil.requiredInputDate("Enter update date(yyyy-MM-dd): ");
+            LocalDate membershipExpirationDate=InputUtil.requiredInputDate("Enter the membership expiration date(yyyy-MM-dd): ");
 
-
-        int departures=InputUtil.requiredInputInt("Add number of departures: ");
-        LocalDate updateDate=InputUtil.requiredInputDate("Enter update date(yyyy-MM-dd): ");
-        LocalDate membershipExpirationDate=InputUtil.requiredInputDate("Enter the membership expiration date(yyyy-MM-dd): ");
-
-        clientRepository.updateClient(id,departures,updateDate,membershipExpirationDate);
+            clientRepository.updateClient(fin,departures,updateDate,membershipExpirationDate);
+        }else {
+            System.out.println("Member not found!");
+        }
     }
 
     @Override

@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ab14901-d611-4d24-a798-6f0124bef445" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GYM-managment-system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/ExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/MemberNotFound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queries/ClientQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/impl/ClientRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/impl/ClientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Menu.java" afterDir="false" />
+    <list default="true" id="6ab14901-d611-4d24-a798-6f0124bef445" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queries/ClientQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queries/ClientQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/impl/ClientRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/impl/ClientRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/impl/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/İnputUtil.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,11 +92,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680330903372</updated>
-      <workItem from="1680330904577" duration="11653000" />
+      <workItem from="1680330904577" duration="12723000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1680342822652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680342822652</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

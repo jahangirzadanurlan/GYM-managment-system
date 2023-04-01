@@ -35,13 +35,13 @@ public class ClientRepositoryImpl implements ClientRepository {
     }
 
     @Override
-    public boolean updateClient(int id, int departure, LocalDate updateDate, LocalDate memberExpirationDate) {
+    public boolean updateClient(String fin, int departure, LocalDate updateDate, LocalDate memberExpirationDate) {
         try (Connection connection = DBConnection.connect()) {
             PreparedStatement preparedStatement = connection.prepareStatement(ClientQueries.UPDATE_CLIENT);
             preparedStatement.setInt(1, departure);
             preparedStatement.setDate(2, Date.valueOf(updateDate));
             preparedStatement.setDate(3, Date.valueOf(memberExpirationDate));
-            preparedStatement.setInt(4, id);
+            preparedStatement.setString(4, fin);
 
 
             int val = preparedStatement.executeUpdate();
